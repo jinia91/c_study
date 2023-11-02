@@ -3,4 +3,4 @@ project(hello_world C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(hello_world library.c)
+add_library(hello_world library.c SpinLock.c Mutex.c Mutex.c)

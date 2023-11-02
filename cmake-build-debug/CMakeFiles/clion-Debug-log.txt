@@ -1,10 +1,13 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/wonjin-choi/CLionProjects/hello_world -B /Users/wonjin-choi/CLionProjects/hello_world/cmake-build-debug
--- The C compiler identification is AppleClang 13.1.6.13160021
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
 -- Configuring done
--- Generating done
--- Build files have been written to: /Users/wonjin-choi/CLionProjects/hello_world/cmake-build-debug
+CMake Error at CMakeLists.txt:6 (add_library):
+  Cannot find source file:
+
+    library.c
+
+
+CMake Error at CMakeLists.txt:6 (add_library):
+  No SOURCES given to target: hello_world
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
